@@ -1,4 +1,9 @@
-# knlim95.github.io
-Personal Website
+# knlim.me / knlim95.github.io
+Kevin Lim's Personal Website
 
-WIP - Eventually Created by Next January
+WIP - ETA: January 2017
+
+##Using Libraries:
+[jQuery](https://jquery.com/)
+
+[Skeleton](http://getskeleton.com/)

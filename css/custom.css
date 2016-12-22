@@ -6,6 +6,14 @@
  * #71C9CE
  */
 
+.page-fullscreen {
+	height: 100vh;
+	min-height: 500px;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
 /* Sections
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .section {
@@ -26,18 +34,18 @@
 
 /* About Me
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.me {
+/*.me {
     background-color: #CBF1F5;
-}
+}*/
 
 /* Projects
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.projects {
+/*.projects {
     background-color: #A6E3E9;
-}
+}*/
 
 /* Contact Me
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.contact {
+/*.contact {
     background-color: #71C9CE;
-}
+}*/

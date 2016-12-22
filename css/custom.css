@@ -14,11 +14,15 @@
 	overflow: hidden;
 }
 
+.page-links {
+    text-align: center;
+}
+
 /* Sections
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .section {
     padding: 8rem 0 7rem;
-    text-align: center;
+    /*text-align: center;*/
 }
 
 .section-heading,
@@ -26,23 +30,29 @@
     margin-bottom: 1.2rem;
 }
 
-/* Intro
+/* Header
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.intro {
-    background-color: #E3FDFD;
+.header {
+    /*background-color: #E3FDFD;*/
+    text-align: center;
 }
 
 /* About Me
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-/*.me {
-    background-color: #CBF1F5;
-}*/
+.me-about {
+    /*background-color: #CBF1F5;*/
+    text-align: left;
+}
+
+.me-qualifications {
+    text-align: right;
+}
 
 /* Projects
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-/*.projects {
-    background-color: #A6E3E9;
-}*/
+.projects {
+    /*background-color: #A6E3E9;*/
+}
 
 /* Contact Me
 –––––––––––––––––––––––––––––––––––––––––––––––––– */

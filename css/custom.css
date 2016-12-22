@@ -13,8 +13,8 @@ body {
 }
 
 .page-fullscreen {
-	height: 100vh;
-	min-height: 500px;
+	/*height: 100%;
+	min-height: 500px;*/
 	width: 100%;
 	position: relative;
 	overflow: hidden;
@@ -55,10 +55,37 @@ h7 {
     text-align: center;
 }
 
+.header a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    /*text-shadow: 2px 2px 1px rgba(0, 0, 0, .2);*/
+}
+
+.header a.me:hover {
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, .2);
+}
+
+.header a.projects:hover {
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, .2);
+}
+
+.header a.contact:hover {
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, .2);
+}
+
 /* About Me
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .me-about {
-    /*background-color: #CBF1F5;*/
     text-align: left;
 }
 
@@ -69,11 +96,11 @@ h7 {
 /* Projects
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .projects {
-    /*background-color: #A6E3E9;*/
+    
 }
 
 /* Contact Me
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .contact {
-    /*background-color: #71C9CE;*/
+    
 }

@@ -1,10 +1,16 @@
 /*
  * Color Palette
- * #E3FDFD
- * #CBF1F5
- * #A6E3E9
- * #71C9CE
+ * turqoise - #08D9D6
+ * black-ish - #252A34
+ * pastel red - #FF2E63
+ * light gray - #EAEAEA
  */
+
+/* Page-Specific
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+body {
+    font-family: 'Julius Sans One', Arial, sans-serif;
+}
 
 .page-fullscreen {
 	height: 100vh;
@@ -14,15 +20,27 @@
 	overflow: hidden;
 }
 
-.page-links {
-    text-align: center;
+/* Text/Links
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+p {
+    margin-top: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h7 {
+    color: #FF2E63;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 300;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    letter-spacing: -.05rem;
 }
 
 /* Sections
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .section {
     padding: 8rem 0 7rem;
-    /*text-align: center;*/
 }
 
 .section-heading,
@@ -33,7 +51,7 @@
 /* Header
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .header {
-    /*background-color: #E3FDFD;*/
+    background-color: #08D9D6;
     text-align: center;
 }
 
@@ -44,7 +62,7 @@
     text-align: left;
 }
 
-.me-qualifications {
+.me-skills {
     text-align: right;
 }
 
@@ -56,6 +74,6 @@
 
 /* Contact Me
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-/*.contact {
-    background-color: #71C9CE;
-}*/
+.contact {
+    /*background-color: #71C9CE;*/
+}

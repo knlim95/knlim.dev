@@ -16,6 +16,12 @@ body {
     background-color: #EAEAEA;
 }
 
+@media (max-width: 550px) {
+	.footer {
+		text-align: right;
+	}
+}
+
 /* Text/Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 p {

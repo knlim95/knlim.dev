@@ -1,3 +1,5 @@
+'use strict';
+
 $(document).ready(function(){
     $('header').css("height", $(window).height() );
     console.log("Page Ready");
@@ -12,4 +14,10 @@ $('a[href^="#"]').on('click', function(event) {
             scrollTop: target.offset().top
         }, 1000);
     }
+});
+
+// Calculate Load Time of Webpage
+$(window).on('load', function() {
+    var time = Date.now() - timeStart;
+    $(".timer").text("page loaded in " + time + " ms");
 });

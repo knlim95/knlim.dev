@@ -125,6 +125,7 @@ h7 {
 /* Contact Me
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 #contact a {
+    font-size: 2rem;
     font-weight: bold;
     text-decoration: none;
 }
@@ -132,4 +133,10 @@ h7 {
 #contact a:hover {
     font-weight: bold;
     text-decoration: underline;
+}
+
+/* Footer
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.footer {
+    color: #252A34;
 }

@@ -108,22 +108,28 @@ h7 {
 
 /* About Me
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.me-about {
-    text-align: left;
-}
 
-.me-skills {
-    text-align: right;
-}
 
 /* Projects
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.projects {
-    
+#projects a {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#projects a:hover {
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 /* Contact Me
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.contact {
-    
+#contact a {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    font-weight: bold;
+    text-decoration: underline;
 }

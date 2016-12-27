@@ -1,6 +1,3 @@
-Font license info
-
-
 ## Font Awesome
 
    Copyright (C) 2016 by Dave Gandy
@@ -9,4 +6,7 @@ Font license info
    License:   SIL ()
    Homepage:  http://fortawesome.github.com/Font-Awesome/
 
+## Header Image Credits
 
+    Photographer: /u/rspiers
+    URL: https://i.imgur.com/Sd8rWOm.jpg

@@ -1,14 +1,13 @@
 'use strict';
 
 $(document).ready(function(){
-    $('header').css("height", $(window).height() );
     console.log("Page Ready");
 });
 
 // Smooth Scrolling for Anchor Links
 $('a[href^="#"]').on('click', function(event) {
     var target = $(this.getAttribute('href'));
-    if( target.length ) {
+    if(target.length) {
         event.preventDefault();
         $('html, body').stop().animate({
             scrollTop: target.offset().top

@@ -8,6 +8,12 @@
 
 /* Page-Specific
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+@media (max-width: 550px) {
+	.footer {
+		text-align: right;
+	}
+}
+
 body {
     font-family: 'Julius Sans One', Arial, sans-serif;
 }
@@ -16,40 +22,25 @@ body {
     background-color: #EAEAEA;
 }
 
-@media (max-width: 550px) {
-	.footer {
-		text-align: right;
-	}
-}
-
 /* Text/Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 p {
-    /*margin-top: 0;*/
     font-family: 'Open Sans', sans-serif;
 }
 
-h7 {
-    color: #FF2E63;
-    margin-top: 0;
+.no-bot-margin {
     margin-bottom: 0;
-    font-weight: 300;
-    font-size: 1.8rem;
-    line-height: 1.5;
-    letter-spacing: -.05rem;
+}
+
+.bold {
+    font-weight: bold;
 }
 
 /* Sections
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .section {
-    /*padding: 8rem 0 7rem;*/
     padding-top: 5rem;
     padding-bottom: 5rem;
-}
-
-.section-heading,
-.section-description {
-    margin-bottom: 1.2rem;
 }
 
 /* Header
@@ -85,7 +76,7 @@ h7 {
     position: relative;
     top: -77px;
     font-size: 4rem;
-    letter-spacing: 4px;
+    letter-spacing: 8px;
 }
 
 .header-text-2 {
@@ -107,14 +98,17 @@ h7 {
 }
 
 #header a:hover {
-    color: white;
-    font-weight: bold;
     text-decoration: underline;
 }
 
 /* About Me
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-
+.about-text-desc {
+    color: #FF2E63;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+}
 
 /* Projects
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -124,25 +118,24 @@ h7 {
 }
 
 #projects a:hover {
-    font-weight: bold;
     text-decoration: underline;
 }
 
 /* Contact Me
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 #contact a {
+    color: #FF2E63;
     font-size: 2rem;
     font-weight: bold;
     text-decoration: none;
 }
 
 #contact a:hover {
-    font-weight: bold;
     text-decoration: underline;
 }
 
 /* Footer
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .footer {
-    color: #C0C0C0;
+    color: #C0C0C0; /* Silver */
 }

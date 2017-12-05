@@ -14,9 +14,3 @@ $('a[href^="#"]').on('click', function(event) {
         }, 1000);
     }
 });
-
-// Calculate Load Time of Webpage
-$(window).on('load', function() {
-    var time = Date.now() - timeStart;
-    $(".timer").text("page loaded in " + time + " ms");
-});

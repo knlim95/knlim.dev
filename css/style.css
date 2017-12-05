@@ -1,0 +1,149 @@
+/* Color Palette 
+ * almost black - #222831
+ * dark grey - #393E46
+ * turquoise - #00ADB5
+ * light grey - #EEEEEE
+ */
+
+/* Header
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.header-text {
+	position: absolute;
+	top: 42.5%;
+	width: 100%;
+	text-align: center;
+	color: white;
+}
+
+#header a {
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+}
+
+#header a:hover {
+	text-decoration: underline;
+}
+
+/* About Me
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.about-desc {
+	margin-bottom: 0;
+	color: #00ADB5;
+	font-weight: bold;
+	text-align: right;
+}
+
+/* Projects
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.project-card {
+	background-color: white;
+	box-shadow: 1px 1px 1px #888888;
+	margin-bottom: 3rem;
+}
+
+.project-container {
+	padding-top: 2rem;
+	padding-bottom: 1rem;
+	padding-right: 2rem;
+	padding-left: 2rem;
+}
+
+.project-tagbox {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.project-tag {
+	border: 1px solid #CDCDCD;
+	margin-right: 1rem;
+	margin-bottom: 1rem;
+	padding: .5rem;
+}
+
+/* Contact Me
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+#contact a {
+	color: #00ADB5;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 2rem;
+}
+
+#contact a:hover {
+	text-decoration: underline;
+}
+ 
+/* Footer
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+footer {
+	background-color: #393E46;
+	padding: 1rem;
+}
+
+footer p {
+	color: grey;
+	margin-bottom: 0;
+}
+
+/* Page Specific
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+body, html {
+	height: 100%;
+}
+
+.page-body {
+    background-color: #EEEEEE;
+}
+
+.section {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+/* Text Specific
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+h1, h2, h3, h4, h5, h6 {
+	color: #222831;
+}
+
+p {
+	color: #393E46;
+}
+
+.link-text {
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+}
+
+.link-text:hover {
+	text-decoration: underline;
+}
+
+.no-bot-margin {
+	margin-bottom: 0;
+}
+
+/* Parallax Specific
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.parallax {
+	/* The image used */
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/header.jpg");
+
+	/* Full height */
+	height: 100%; 
+
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* Turn off parallax scrolling for tablets and phones. Increase/decrease the pixels if needed */
+@media only screen and (max-device-width: 1024px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}

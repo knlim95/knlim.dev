@@ -1,9 +1,9 @@
 # knlim.com / knlim95.github.io
 Kevin Lim's Personal Website
 
-WIP - ETA: TBH
+Welcome to my personal website! This is where you can find information about myself, job experience and the projects that I created and was a part of.
 
-#Using Libraries:
-[jQuery](https://jquery.com/)
-
+## Using Libraries:
 [Skeleton](http://getskeleton.com/)
+
+[jQuery](https://jquery.com/)

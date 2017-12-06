@@ -9,7 +9,7 @@
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .header-text {
 	position: absolute;
-	top: 42.5%;
+	top: 41%;
 	width: 100%;
 	text-align: center;
 	color: white;
@@ -38,7 +38,7 @@
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .project-card {
 	background-color: white;
-	box-shadow: 1px 1px 1px #888888;
+	box-shadow: 1px 2px 2px #888888;
 	margin-bottom: 3rem;
 }
 
@@ -101,6 +101,14 @@ body, html {
     padding-bottom: 3rem;
 }
 
+.no-bot-margin {
+	margin-bottom: 0;
+}
+
+.no-top-margin {
+	margin-bottom: 0;
+}
+
 /* Text Specific
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 h1, h2, h3, h4, h5, h6 {
@@ -121,15 +129,11 @@ p {
 	text-decoration: underline;
 }
 
-.no-bot-margin {
-	margin-bottom: 0;
-}
-
 /* Parallax Specific
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .parallax {
 	/* The image used */
-	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/header.jpg");
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/header.png");
 
 	/* Full height */
 	height: 100%; 

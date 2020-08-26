@@ -5,8 +5,3 @@
    Author:    Dave Gandy
    License:   SIL ()
    Homepage:  http://fortawesome.github.com/Font-Awesome/
-
-## Header Image Credits
-
-    Photographer: /u/KananiskisPhotos
-    URL: https://www.reddit.com/r/EarthPorn/comments/7hptrq/winter_in_kananaskis_snow_and_ice_at_elbow_falls/
